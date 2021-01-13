@@ -1,0 +1,69 @@
+:root {
+
+    --Vermelho:#E50914;
+    --preta:#141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+header .logo {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: var(--Vermelho);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin: 10px;
+}
+
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/star_wars_the_mandalorian_wallpaper_by_outlawninja_ddklx27-fullview.jpg');
+    
+    height: 600px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 90px;
+}
+
+
+.titulo {
+    font-size: 40px;
+}
